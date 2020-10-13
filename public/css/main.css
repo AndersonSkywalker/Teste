@@ -1,0 +1,26 @@
+* { /* Seletor universal */
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh; /* Preencher toda página */
+    color: white;
+    
+}
+
+:root{
+    font-size: 62.5%; /* Por padrão o px e = 16 - 62.5% = 10px */
+}
+
+body, input, button, textarea{
+
+    font: 400 1.8rem/1 'Nunito', sans-serif;
+    /* 
+    400 = font-weight
+    1.8rem = font-size (10px + 8 = 18px)
+    /1 = line-height
+    'Nunito', sans-serif = font-family
+    */
+}
+
